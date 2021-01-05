@@ -114,7 +114,10 @@ a:hover {
 .header .section-inner .header-title .header-logo {
   font-size: 6rem;
   font-family: "Dancing Script", cursive;
+  color: #171717;
   line-height: 90px;
+  -webkit-text-stroke: 0.5px #fff;
+  text-stroke: 0.5px #fff;
 }
 
 .header .section-inner .header-title .header-logo-subdesc {

@@ -103,7 +103,10 @@ a:hover {
             .header-logo {
                 font-size: 6rem;
                 font-family: $title-logo;
+                color: #171717;
                 line-height: 90px;
+                -webkit-text-stroke: 0.5px #fff;
+                text-stroke: 0.5px #fff;
             }
 
             .header-logo-subdesc {
