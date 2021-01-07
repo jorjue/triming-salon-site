@@ -40,5 +40,18 @@ $(function () {
         });
     });
 
+    const options = {
+        origin: 'bottom',
+        viewFactor: 0.5,
+    };
+
+    ScrollReveal().reveal('.concept-wrapper', options);
+    ScrollReveal().reveal('.blog-wrapper', options);
+    ScrollReveal().reveal('.salon-wrapper', options);
+    ScrollReveal().reveal('.option-wrapper', options);
+    ScrollReveal().reveal('.access-wrapper', options);
+
+    
+
 
 });
